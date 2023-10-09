@@ -1,0 +1,47 @@
+/* TODO: css units */
+
+html, body {
+  /* padding is used to create space around an elements contents
+   * inside of any defined borders.
+   */
+  padding: 0;
+
+  /* margins are used to create space around elements,
+   * outside of any defined borders.
+   */
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+ /* "." refers to a class
+  * "#" refers to a id
+  * */
+.hero {
+  background-color: #7c109a;
+  color: #fff;
+
+  /*       top & bottom      left & right  */
+  padding:    50px               30px;
+
+  /*          top  bottom left & right  */
+  /* padding: 50px 75px      30px;      */
+
+  /*          top  bottom left right    */
+  /* padding: 50px 75px   30px 20px;    */
+
+  /* centers text inside an element */
+  text-align: center;
+}
+
+.hero h1 {
+  /* h1 default is bold */
+  font-weight: normal;
+  font-size: 6rem;
+  margin: 0
+}
+
+.hero h2 {
+}
